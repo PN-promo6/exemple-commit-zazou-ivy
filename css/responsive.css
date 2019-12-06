@@ -1,0 +1,57 @@
+/* smartphones */
+@media (max-device-width:767px) {
+  .container, section, aside {
+    width: 100%;
+  }
+
+*{
+  box-sizing: border-box;
+}
+
+  .container {
+    margin: 0 10px;
+  }
+
+ header img {
+   height: 15rem;
+ }
+
+ h1 {
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 5px
+ }
+
+
+h2{
+
+font-size: 1.5rem;
+font-weight: 700;
+
+}
+
+
+h3{
+
+font-size: 1.3rem;
+font-weight: 700;
+
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+header, p {
+  margin: 5px;
+}
+
+nav, ul footer, ul{
+  margin:0;
+  padding: 0;
+
+}
+
+
+}

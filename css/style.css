@@ -1,0 +1,140 @@
+body {
+  font-size: 16px;
+  /*1rem*/
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  background-color: #F7F7F8;
+  margin: 0;
+  background: linear-gradient(to top,#a4b9b9, #e9e9d9);
+}
+.clearfix{
+  clear: both;
+}
+
+.shadowlight{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a, a:active, a:visited {
+  color: #090C9B
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h2, h3 {
+  font-weight: 600;
+}
+
+h2 {
+  color: #003e1f;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4, h5, h6 {
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #090D0A;
+}
+
+section {
+  width: 68%;
+}
+
+aside{
+  width: 30%;
+  margin-left: 2%
+
+}
+
+article, nav {
+  background-color: #ffffff;
+}
+
+
+
+nav ul, footer ul {
+  margin: 0px;
+  /* padding: 0px; */
+}
+
+nav,header,article{
+  margin-bottom: 30px !important;
+
+}
+
+header, article {
+padding : 10px 25px
+}
+
+header {
+  text-align: center;
+  padding-left: 0;
+  padding-right:0;
+  background-image:url("../images/backgro.png");
+  background-repeat: repeat;
+  /* background-size: cover; pour la taille de l'image soit à la taille de conteneur*/
+  color: #424143;
+
+  /* backgroung attachement fixed pour que le décor ne bouge pas */
+}
+
+header img {
+  height: 17rem;
+  border-radius: 50%;
+}
+section img {
+  width: 9rem;
+  float: right;
+}
+aside,section {
+  float: left;
+}
+
+nav{
+  text-align: center;
+    padding: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 20px;     // pour augmenter la hauteur entre les bords de la nav
+}
+/* pour mettre la liste sous forme de ligne */
